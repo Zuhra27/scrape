@@ -1,0 +1,13 @@
+.DS_Store
+
+.flake8
+.history/
+.venv/
+.vscode/
+
+__pycache__/
+        asyncio/
+dist/
+noxfile.py
+snapshots/
+scrape.egg-info/
