@@ -44,7 +44,7 @@ output_dir = pathlib.Path().resolve() / "snapshots/pages"
 output_dir.mkdir(parents=True, exist_ok=True)
 
 for result in results:
-    current_year = result.get("page")
+    current_page = result.get("page")
     html_data = result.get("body")
-    output_file = output_dir / f"{current_year}.html"
+    output_file = output_dir / f"{current_page}.html"
     output_file.write_text(html_data.decode())
