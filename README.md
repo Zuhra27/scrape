@@ -9,4 +9,4 @@ An asynchronous function in Python is typically called a 'coroutine', which is j
 The main libraries for implementing Asyncio Web Scrapping is aiohttp. 
 For more information please take a look here 
 - https://asyncio.readthedocs.io/en/latest/webscraper.html#getting-multiple-pages-asynchronously-without-time-savings#high-level-approach-with-aiohttp
-- https://www.youtube.com/watch?v=6ow7xloFy5s&t=1465s
+- https://www.youtube.com/watch?v=6ow7xloFy5s
